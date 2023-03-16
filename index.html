@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Fonts/Muller/stylesheet.css">
+  <link rel="stylesheet" href="./CSS/normolize.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Lagoona</title>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="container header-container">
+      <div class="header-left">
+        <a href="#" class="logo">
+          <img src="./IMG/logo.png" alt="Lagoona">
+        </a>
+        <a href="tel:+79100984789" class="contact-tele">+7 495 322-54-48</a>
+      </div>
+      <div class="header-right">
+        <a class="personal-account" href=""><svg class="personal-account-tab" width="21" height="12" fill="none"><path d="M10.59 1.41L14.17 5H0V7H14.17L10.58 10.59L12 12L18 6L12 0L10.59 1.41ZM19 0V12H21V0H19Z"/>
+          </svg> Личный кабинет</a>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="container nav-container">
+        <div class="nav-left">
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="#about-us">О нас</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#services">Услуги</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#advantage">Преимущества</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#check-in">Размещение</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#blog">Блог</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#contact">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <input type="text" class="input-form-control input-search" placeholder="Поиск">
+          <span class="search-icon"></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="special-offers">
+      <div class="container">
+
+        <ul class="special-offers-list">
+          <li class="special-offers-item fast-reservation">
+            <h2 class="section-heading">Быстрая бронь</h2>
+            <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+              <input  type="text" required name="city" class="resevation-input input-form-control" placeholder="Город">
+            <input type="text" required name="category" class="resevation-input input-form-control" placeholder="Категория номера">
+            <input type="text" required name="date" class="resevation-input input-form-control" placeholder="Дата заселения">
+            <input type="number" required name="nights" class="resevation-input input-form-control" placeholder="Количество ночей">
+            <input type="number" required name="guests" class="resevation-input input-form-control" placeholder="Количество гостей">
+            <div class="search">
+              <button type="submit" class="btn resevation-btn">Найти номер</button>
+              <div class="free-room"><span class="count">9312 </span>предложений доступно</div>
+            </div>
+            </form>
+            
+          </li>
+          <li class="special-offers-item ">
+            <h2 class="section-heading heading-offers">Спецпредложения</h2>
+            <div class="item room-lux">
+              <h2 class="special-offers-heading">Номера <br> категории <br> люкс</h2>
+              <div class="special-offers-price">от 5 000 ₽</div>
+              <a class="special-offers-more" href="">Подробнее
+                <svg class="special-offers-more-icon" width="10" height="18" viewBox="0 0 10 18" fill="none">
+                  <path d="M0.778175 1.00002L8.55635 8.7782L0.778175 16.5564"  stroke-width="2"/>
+                  </svg>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="about-us" class="about-us">
+      <div class="container about-us-container">
+        <h2 class="section-heading heading-about-us">О нас</h2>
+        <p class="about-us-histori">Идейные соображения высшего порядка, а также сложившаяся структура организации
+          влечёт за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.
+          Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет
+          собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным
+          образом сложившаяся структура организации требуют определения и уточнения существенных финансовых
+          и административных условий.</p>
+      </div>
+    </section>
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-heading services-heading">Услуги</h2>
+        <ul class="services-list">
+          <li class="services-item spa-sauna">
+            <a class="services-link " href="">Сауны, бассейны, бани, фитнес-залы
+              <svg class="services-link-icon" width="10" height="18" viewBox="0 0 10 18" fill="none"><path d="M0.778175 1.00002L8.55635 8.7782L0.778175 16.5564" stroke-width="2"/></svg>
+            </a>
+            <div class="services-description">Не следует, однако забывать, что начало повседневной работы
+              по формированию позиции</div>
+          </li>
+          <li class="services-item services-exsclusiv">
+            <a class="services-link" href="">Эксклюзивное обслуживание
+              <svg class="services-link-icon" width="10" height="18" viewBox="0 0 10 18" fill="none"><path d="M0.778175 1.00002L8.55635 8.7782L0.778175 16.5564" stroke-width="2"/></svg>
+            </a>
+            <div class="services-description">Равным образом постоянный количественный рост и сфера нашей активности
+            </div>
+          </li>
+          <li class="services-item rent-room">
+            <a class="services-link" target="_blank" href="https://yandex.ru">Аренда банкетных залов
+              <svg class="services-link-icon" width="10" height="18" viewBox="0 0 10 18" fill="none"><path d="M0.778175 1.00002L8.55635 8.7782L0.778175 16.5564" stroke-width="2"/></svg>
+            </a>
+            <div class="services-description">Значимость этих проблем настолько очевидна, что дальнейшее развитие
+              различных форм</div>
+          </li>
+          <li class="services-item parking">
+            <a class="services-link" href="">Охраняемые автомобильные стоянки
+              <svg class="services-link-icon" width="10" height="18" viewBox="0 0 10 18" fill="none"><path d="M0.778175 1.00002L8.55635 8.7782L0.778175 16.5564" stroke-width="2"/></svg>
+            </a>
+            <div class="services-description">Не следует, однако забывать, что начало повседневной работы
+              по формированию позиции</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="advantage" class="advantage">
+      <div class="container">
+        <h2 class="section-heading">Преимущества</h2>
+        <ul class="advantage-list">
+          <li class="advantage-item">
+            <img class="advantage-icon" src="./IMG/bathtub.svg" alt="">
+            <div class="advantage-description">Идейные соображения высшего порядка,
+              а также постоянный количественный рост</div>
+          </li>
+          <li class="advantage-item">
+            <img class="advantage-icon" src="./IMG/hanger.svg" alt="">
+            <div class="advantage-description">Значимость этих проблем настолько очевидна, что вопрос остаётся открытым
+            </div>
+          </li>
+          <li class="advantage-item">
+            <img class="advantage-icon" src="./IMG/heating.svg" alt="">
+            <div class="advantage-description">Таким образом реализация плановых заданий играет важную роль
+              для понимания</div>
+          </li>
+          <li class="advantage-item">
+            <img class="advantage-icon" src="./IMG/hotel-key.svg" alt="">
+            <div class="advantage-description">Повседневная практика показывает, что сложившаяся структура организации
+            </div>
+          </li>
+          <li class="advantage-item">
+            <img class="advantage-icon" src="./IMG/parking.svg" alt="">
+            <div class="advantage-description">Равным образом рамки и место обучения кадров способствует подготовки
+              сотрудника</div>
+          </li>
+          <li class="advantage-item">
+            <img class="advantage-icon" src="./IMG/reception.svg" alt="">
+            <div class="advantage-description">Консультация с активом влечёт за собой процесс внедрения услуг нашего
+              сервиса</div>
+          </li>
+          <li class="advantage-item">
+            <img class="advantage-icon" src="./IMG/swimming-pool.svg" alt="">
+            <div class="advantage-description">Значимость этого настолько очевидна, что консультация наших экспертов
+              помогает</div>
+          </li>
+          <li class="advantage-item">
+            <img class="advantage-icon" src="./IMG/security-box.png" alt="">
+            <div class="advantage-description">Повседневная практика показывает, что дальнейшее развитие различных
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="check-in" class="check-in">
+      <div class="container">
+        <h2 class="section-heading">Размещение</h2>
+        <ul class="check-in-list">
+          <li class="check-in-item">
+            <img class="check-in-img" src="./IMG/24.png" alt="">
+            <div class="check-in-description">
+              <div class="check-in-price">
+                <div class="price"><span>от</span> <span>4523 р</span> / ночь</div>
+                <div class="stars">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starFalse.png" alt="">
+                </div>
+              </div>
+              <div class="check-in-place">Lagoona española</div>
+              <div class="check-in-gps">Барселона, Испания</div>
+              <!-- <a class="check-in-link" href=""> -->
+              <button class="btn">Номера</button>
+              <!-- </a> -->
+            </div>
+          </li>
+          <li class="check-in-item">
+            <img class="check-in-img" src="./IMG/26.png" alt="">
+            <div class="check-in-description">
+              <div class="check-in-price">
+                <div class="price"><span>от</span> <span>4523 р</span> / ночь</div>
+                <div class="stars">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                </div>
+              </div>
+              <div class="check-in-place">Lagoona son típicas</div>
+              <div class="check-in-gps">Барселона, Испания</div>
+              <!-- <a class="check-in-link" href=""> -->
+              <button class="btn">Номера</button>
+              <!-- </a> -->
+            </div>
+          </li>
+          <li class="check-in-item">
+            <img class="check-in-img" src="./IMG/27.png" alt="">
+            <div class="check-in-description">
+              <div class="check-in-price">
+                <div class="price"><span>от</span> <span>4523 р</span> / ночь</div>
+                <div class="stars">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starFalse.png" alt="">
+                </div>
+              </div>
+              <div class="check-in-place">Lagoona de la guerra</div>
+              <div class="check-in-gps">Барселона, Испания</div>
+              <!-- <a class="check-in-link" href=""> -->
+              <button class="btn">Номера</button>
+              <!-- </a> -->
+            </div>
+          </li>
+          <li class="check-in-item">
+            <img class="check-in-img" src="./IMG/29-1.png" alt="">
+            <div class="check-in-description">
+              <div class="check-in-price">
+                <div class="price"><span>от</span> <span>4523 р</span> / ночь</div>
+                <div class="stars">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starFalse.png" alt="">
+                  <img src="./IMG/starFalse.png" alt="">
+                </div>
+              </div>
+              <div class="check-in-place">Lagoona mentira piadosa</div>
+              <div class="check-in-gps">Барселона, Испания</div>
+              <!-- <a class="check-in-link" href=""> -->
+              <button class="btn">Номера</button>
+              <!-- </a> -->
+            </div>
+          </li>
+          <li class="check-in-item">
+            <img class="check-in-img" src="./IMG/29.png" alt="">
+            <div class="check-in-description">
+              <div class="check-in-price">
+                <div class="price"><span>от</span> <span>4523 р</span> / ночь</div>
+                <div class="stars">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                </div>
+              </div>
+              <div class="check-in-place">Lagoona empujar la creatividad</div>
+              <div class="check-in-gps">Барселона, Испания</div>
+              <!-- <a class="check-in-link" href=""> -->
+              <button class="btn">Номера</button>
+              <!-- </a> -->
+            </div>
+          </li>
+          <li class="check-in-item">
+            <img class="check-in-img" src="./IMG/30.png" alt="">
+            <div class="check-in-description">
+              <div class="check-in-price">
+                <div class="price"><span>от</span> <span>4523 р</span> / ночь</div>
+                <div class="stars">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starFalse.png" alt="">
+                </div>
+              </div>
+              <div class="check-in-place">Lagoona el retorno</div>
+              <div class="check-in-gps">Барселона, Испания</div>
+              <!-- <a class="check-in-link" href=""> -->
+              <button class="btn">Номера</button>
+              <!-- </a> -->
+            </div>
+          </li>
+          <li class="check-in-item">
+            <img class="check-in-img" src="./IMG/31.png" alt="">
+            <div class="check-in-description">
+              <div class="check-in-price">
+                <div class="price"><span>от</span> <span>4523 р</span> / ночь</div>
+                <div class="stars">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starFalse.png" alt="">
+                  <img src="./IMG/starFalse.png" alt="">
+                </div>
+              </div>
+              <div class="check-in-place">Lagoona mentira piadosa</div>
+              <div class="check-in-gps">Барселона, Испания</div>
+              <!-- <a class="check-in-link" href=""> -->
+              <button class="btn">Номера</button>
+              <!-- </a> -->
+            </div>
+          </li>
+          <li class="check-in-item">
+            <img class="check-in-img" src="./IMG/23.png" alt="">
+            <div class="check-in-description">
+              <div class="check-in-price">
+                <div class="price"><span>от</span> <span>4523 р</span> / ночь</div>
+                <div class="stars">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                  <img src="./IMG/starTrue.png" alt="">
+                </div>
+              </div>
+              <div class="check-in-place">Lagoona suerte siguió siempre</div>
+              <div class="check-in-gps">Барселона, Испания</div>
+              <!-- <a class="check-in-link " href=""> -->
+              <button class="btn">Номера</button>
+              <!-- </a> -->
+            </div>
+          </li>
+          <li class="check-in-item all-price">
+              <a class="check-in-link link-all" href="">Посмотреть все варианты
+                 <svg class="link-icon" width="10" height="18" viewBox="0 0 10 18" fill="none"><path d="M0.778175 1.00002L8.55635 8.7782L0.778175 16.5564" stroke-width="2"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-want-tour">
+      <div class="container container-want">
+        <h2 class="section-heading want-title">Хочу тур</h2>
+        <div class="want-tour-form-list">
+          <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="want-tour-form">
+            <div class="form-want-item">
+              <label class="want-label" for="city">Город вылета</label>
+              <select required class="input-form-want form-select select-city" name="city" id="city">
+                <option selected disabled value="" class="option-city">Не выбрано</option>
+                <option class="option-city" value="Санкт-Петербург">Санкт-Петербург</option>
+                <option class="option-city" value="Саранск">Саранск</option>
+                <option class="option-city" value="Севастополь">Севастополь</option>
+                <option class="option-city" value="Северодвинск">Северодвинск</option>
+                <option class="option-city" value="Симферополь">Симферополь</option>
+                <option class="option-city" value="Сочи">Сочи</option>
+                <option class="option-city" value="Ставрополь">Ставрополь</option>
+                <option class="option-city" value="Сызрань">Сызрань</option>
+                <option class="option-city" value="Сыктывкар">Сыктывкар</option>
+                <option class="option-city" value="Москва">Москва</option>
+                <option class="option-city" value="Нижний-Новгород">Нижний-Новгород</option>
+                <option class="option-city" value="Ростов-на-Дону">Ростов-на-Дону</option>
+                <option class="option-city" value="Воронеж">Воронеж</option>
+                <option class="option-city" value="Барнаул">Барнаул</option>
+              </select>
+            </div>
+            <div class="form-want-item">
+              <label class="want-label" for="country">Страна тура</label>
+              <select required class="input-form-want form-select select-country" name="country" id="country">
+                <option selected disabled value="" class="option-country">Не выбрано</option>
+                <option value="Австралия" class="option-country">Австралия</option>
+                <option value="Австрия" class="option-country">Австрия</option>
+                <option value="Азербайджан" class="option-country">Азербайджан</option>
+                <option value="Албания" class="option-country">Албания</option>
+                <option value="Англия" class="option-country">Англия</option>
+                <option value="Аргентина" class="option-country">Аргентина</option>
+                <option value="Армения" class="option-country">Армения</option>
+                <option value="Белоруссия" class="option-country">Белоруссия</option>
+                <option value="Бельгия" class="option-country">Бельгия</option>
+                <option value="Турция" class="option-country">Турция</option>
+                <option value="Италия" class="option-country">Италия</option>
+                <option value="АОЭ" class="option-country">АОЭ</option>
+              </select>
+            </div>
+            <div class=" form-want-item">
+              <label class="want-label" for="date">Дата прибытия</label>
+              <input required type="date" name="date" id="date" class="i-1 input-form-want date-input">
+            </div>
+            <div class=" form-want-item">
+              <label class="want-label" for="night">Ночей</label>
+              <input required type="number" name="night" id="night" class="i-1 input-form-want night-input ">
+            </div>
+            <div class=" form-want-item">
+              <label class="want-label" for="people">Туристы</label>
+              <input required type="number" name="people" id="people" class="i-1 input-form-want people-input">
+            </div>
+            <div class="form-want-item"><button class="btn btn-want" type="submit">Найти</button></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section-contact">
+      <div class="container contact-container">
+        <div class="left">
+          <h2 class="section-heading heading-contact">Контакты</h2>
+          <div class="contact">
+          <div class="contact-item address">
+            <h3 class="contact-title">Адрес</h3>
+            <div class="contact-description">Москва, улица Юности, дом 5 строение 4, офис 2</div>
+          </div>
+          <div class="contact-item phone">
+            <h3 class="contact-title">Телефоны</h3>
+            <div class="contact-description">
+              <a class="contact-link" href="tel:89100984789">+7 (499) 535-64-34</a>
+              <a class="contact-link" href="tel:89100984789">+7 (495) 005-05-44</a>
+            </div>
+          </div>
+          <div class="contact-item e-mail">
+            <h3 class="contact-title">E-mail</h3>
+            <div class="contact-description">
+              <a class="contact-link" href="mailto:andreypintel@mail.ru">lg.oona@mail.ru <span class="grey"> по вопросам бронирования</span></a>
+              <a class="contact-link" href="mailto:andreypintel@mail.ru">hotels.ln@mail.ru <span class="grey">по вопросам сотрудничества</span></a>
+            </div>
+          </div>
+          <div class="contact-item work">
+            <h3 class="contact-title">График</h3>
+            <div class="contact-description">
+              Понедельник - пятница, с 10:0 до 19:00
+            </div>
+          </div>
+          <div>
+            <button class="btn btn-contact">Построить маршрут</button>
+          </div>
+        </div>
+        </div>
+        <div class="send-us">
+          <h2 class="section-heading heading-send-us">Напишите нам</h2>
+          <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form-send-us">
+            <input name="name" type="text" class="input-form-control input-send-us" placeholder="Имя" required>
+            <input type="tel" name="phone" class="input-form-control input-send-us" placeholder="+7" required>
+            <textarea name="message" rows="4" class="input-form-control input-send-us" placeholder="Сообщение..." required></textarea>
+            <button type="submit" class="btn btn-send-us">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <ul class="footer-list">
+        <li class="footer-item footer-item-left">
+          <div class="footer-text">© 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»</div>
+          <div class="footer-text">Представленная на сайте информация
+            носит справочный характер
+            и не является публичной офертой</div>
+          <div class="footer-text"><a href="" class="footer-text-link">Политика конфиденциальности</a></div>
+        </li>
+        <li class="footer-item footer-item-centr">
+          <div class="footer-text">11710, улица Юности, дом 5 строение 4, офис 2</div>
+          <div class="footer-text">
+            <a href="tel:89100984789" class="footer-text-link">+7 (499) 535-64-34</a>
+            <a href="tel:89100984789" class="footer-text-link">+7 (495) 005-05-44</a>
+          </div>
+          <div class="footer-text">
+            <a href="mailto:andreypintel@mail.ru" class="footer-text-link">lg.oona@mail.ru </a>
+            <a href="mailto:andreypintel@mail.ru" class="footer-text-link">hotels.ln@mail.ru</a>
+          </div>
+        </li>
+        <li class="footer-item footer-item-right">
+          <ul class="footer-icon-list">
+            <li class="footer-icon-item"><a href="" class="footer-icon-link tripadvisor"
+                style="background: url(./IMG/tripadvisor.png)0 0/cover no-repeat;"></a></li>
+            <li class="footer-icon-item"><a href="" class="footer-icon-link twitter"
+                style="background: url(./IMG/twitter.png)0 0/cover no-repeat;"></a></li>
+            <li class="footer-icon-item"><a href="" class="footer-icon-link google"
+                style="background: url(./IMG/google-plus-social-logotype.png)0 0/cover no-repeat;"></a></li>
+            <li class="footer-icon-item"><a href="" class="footer-icon-link vk"
+                style="background: url(./IMG/vk.png)0 0/cover no-repeat;"></a></li>
+            <li class="footer-icon-item"><a href="" class="footer-icon-link facebook"
+                style="background: url(./IMG/facebook.png)0 0/cover no-repeat;"></a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+  <a class="up" href="#header"></a>
+
+  <script src="./scrypt.js"></script>
+</body>
+
+</html>
