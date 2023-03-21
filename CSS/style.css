@@ -689,37 +689,35 @@ margin-bottom: 24px;
 
 .want-tour-form{
   display: flex;
-  max-width: calc(100% - 28px * 2);
-  justify-content: space-between;
+}
+select{
+  appearance: none;
+  padding-right: 1.2em;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 0.25em) 0.35em;
+  background-size: 0.85em auto;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cpath d='M70.3 13.8L40 66.3 9.7 13.8z' fill='%23000'%3E%3C/path%3E%3C/svg%3E");
+
 }
 .form-want-item{
   display: inline-flex;
   flex-direction: column;
+  align-items: flex-start;
   padding-right: 20px;
   flex: 1 0 auto;
 }
-.form-want-item:not(:first-child){
-   margin-left: 20px;
-  
-}
-.form-want-item:last-child{
-  margin-right: 30px;
-}
-.form-want-item:not(:last-child){
-  border-right: 1px solid #E1E1E1;
-}
+
 .input-form-want{
   border: none;
   margin-top: 15px;
   font-size: 16px;
 }
 .want-label{
+  display: block;
   font-size: 12px;
   color: #000000;
 }
-.i-1{
-  max-width: 142px;
-}
+
 .people-input,.night-input{
   border-bottom: 1px solid #E1E1E1;
 }
@@ -732,6 +730,7 @@ margin-bottom: 24px;
 }
 .btn-want{
   display: block;
+  margin-left: 50px;
 }
 
 /* =======================FOOTER===================== */
